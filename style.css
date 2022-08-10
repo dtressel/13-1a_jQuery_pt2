@@ -1,0 +1,71 @@
+h1, .center {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    max-width: 600px;
+    background-color: rgb(163, 163, 173);
+    border-radius: 10px;
+    width: 90%;
+    padding: 16px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-right: 10px;
+}
+
+
+#right-side {
+    width: 30%
+}
+
+#left-side {
+    width: 55%
+}
+
+#rating {
+    width: 55%;
+    min-width: 40px;
+}
+
+#title {
+    width: 80%;
+    min-width: 120px;
+}
+
+#movies-table-container {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+#movies-table {
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid rgb(206, 206, 206);
+}
+
+#movie-head {
+    width: 70%;
+}
+
+#rating-head {
+    width: 19%;
+}
+
+table {
+    min-width: 70%;
+
+}
